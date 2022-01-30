@@ -65,11 +65,9 @@
   text-decoration: none;
   margin-right: 80px;
 }
-@media screen and (max-width: 1112px) {
   .nav__links:last-child{
     margin-right: 0;
   }
-}
 .nav__link{
   text-decoration: none;
   font-family: 'Inter', sans-serif;
