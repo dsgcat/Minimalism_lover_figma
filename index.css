@@ -14,6 +14,12 @@
     max-width: 1280px;
   }
 }
+@media screen and (max-width: 1112px){
+  .header{
+    max-width: 1112px;
+    padding-top: 60px;
+  }
+}
 .nav{
   max-width: 1180px;
   margin: 0 auto;
@@ -41,6 +47,8 @@
   line-height: 32px;
   color: #7B61FF;
   align-self: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
   margin: 0;
   padding: 0;
 }
@@ -48,10 +56,19 @@
   list-style: none;
   display:flex;
   flex-direction: row;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  align-items: center;
 }
 .nav__links{
   text-decoration: none;
   margin-right: 80px;
+}
+@media screen and (max-width: 1112px) {
+  .nav__links:last-child{
+    margin-right: 0;
+  }
 }
 .nav__link{
   text-decoration: none;
