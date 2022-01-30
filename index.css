@@ -21,6 +21,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
+@media screen and (max-width: 1280px) {
+  .nav{
+    max-width: 1080px;
+  }
+}
 .header__logo{
   background: #EEEBFF;
   width: 62px;
