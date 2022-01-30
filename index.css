@@ -205,6 +205,11 @@
     padding-top: 100px;
   }
 }
+@media screen and (max-width: 481px) {
+  .text-photo{
+    max-width: 481px;
+  }
+}
 .text-photo__text{
   max-width: 622px;
   margin: 0;
@@ -227,6 +232,11 @@
   .text-photo__text{
     text-align: center;
     padding-right: 0;
+  }
+}
+@media screen and (max-width: 481px) {
+  .text-photo__text{
+    max-width: 300px;
   }
 }
 .author{
@@ -359,6 +369,11 @@
     max-width: 350px;
   }
 }
+@media screen and (max-width: 481px) {
+  .text-photo__line{
+    max-width: 300px;
+  }
+}
 .text-photo__paragraph{
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -373,7 +388,11 @@
   max-width: 478px;
   font-size: 0;
 }
-
+@media screen and (max-width: 481px) {
+  .text-photo__photo-el{
+    max-width: 350px;
+  }
+}
 .text-photo__photo{
   max-width: 100%;
   border-radius: 6px;
