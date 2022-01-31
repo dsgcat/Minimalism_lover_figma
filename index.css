@@ -23,6 +23,11 @@
   margin: 0 auto;
   max-width: 1600px;
 }
+@media screen and (max-width: 320px) {
+  .page{
+    max-width: 320px;
+  }
+}
 .header{
   margin: 0 auto;
   background: #fff;
@@ -44,6 +49,11 @@
   .header{
     max-width: 834px;
     padding-top: 60px;
+  }
+}
+@media screen and (max-width: 320px){
+  .header{
+    max-width: 320px;
   }
 }
 .nav{
@@ -73,6 +83,11 @@
     max-width: 400px;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nav{
+    max-width: 320px;
   }
 }
 .header__logo{
@@ -109,6 +124,11 @@
     max-width: 400px;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nav__menu{
+    max-width: 319px;
   }
 }
 .nav__links{
@@ -171,6 +191,11 @@
     max-width: 834px;
   }
 }
+@media screen and (max-width: 320px){
+  .main{
+    max-width: 320px;
+  }
+}
 .text-photo{
   max-width: 1180px;
   margin: 0 auto;
@@ -208,6 +233,11 @@
 @media screen and (max-width: 481px) {
   .text-photo{
     max-width: 481px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-photo{
+    max-width: 320px;
   }
 }
 .text-photo__text{
@@ -286,6 +316,12 @@
     line-height: 40px;
   }
 }
+@media screen and (max-width: 320px) {
+  .description-h1{
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
 .description-paragraph{
   max-width: 553px;
   font-family: 'Inter', sans-serif;
@@ -310,6 +346,14 @@
     line-height: 18px;
   }
 }
+@media screen and (max-width: 320px) {
+  .description-paragraph{
+    width: calc(100% - 20px);
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto;
+  }
+}
 .text-photo__buttons{
   list-style: none;
   margin: 0;
@@ -321,6 +365,14 @@
   .text-photo__buttons{
     margin: 0 auto;
     justify-content: space-between;
+  }
+}
+@media screen and (max-width: 240px) {
+  .text-photo__buttons{
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 30px;
+    justify-content: space-around;
   }
 }
 .text-photo__button{
@@ -374,6 +426,12 @@
     max-width: 300px;
   }
 }
+@media screen and (max-width: 320px) {
+  .text-photo__line{
+    display: none;
+
+  }
+}
 .text-photo__paragraph{
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -381,6 +439,11 @@
   font-size: 12px;
   line-height: 16px;
   color: #6B7280;
+}
+@media screen and (max-width: 320px){
+  .text-photo__paragraph{
+    padding-top: 14px;
+  }
 }
 .text-photo__photo-el{
   margin: 0;
